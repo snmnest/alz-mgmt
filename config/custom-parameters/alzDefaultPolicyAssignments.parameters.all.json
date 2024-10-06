@@ -1,0 +1,90 @@
+{
+  "parameters": {
+    "parLogAnalyticsWorkspaceResourceId": {
+      "value": "/subscriptions/fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf/resourcegroups/rg-spalz-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parDisableAlzDefaultPolicies": {
+      "value": false
+    },
+    "parAutomationAccountName": {
+      "value": "alz-automation-account"
+    },
+    "parLogAnalyticsWorkspaceLogRetentionInDays": {
+      "value": "365"
+    },
+    "parLogAnalyticsWorkSpaceAndAutomationAccountLocation": {
+      "value": "australiaeast"
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    },
+    "parTopLevelPolicyAssignmentSovereigntyGlobal": {
+      "value": {
+        "parPolicyEffect": "Deny",
+        "parListOfAllowedLocations": [],
+        "parTopLevelSovereigntyGlobalPoliciesEnable": false
+      }
+    },
+    "parDdosEnabled": {
+      "value": true
+    },
+    "parVmBackupExclusionTagName": {
+      "value": ""
+    },
+    "parDdosProtectionPlanId": {
+      "value": "/subscriptions/1c75efbb-e856-497e-97a0-ee1ebbfb98a8/resourceGroups/rg-spalz-connectivity/providers/Microsoft.Network/ddosProtectionPlans/alz-ddos-plan"
+    },
+    "parPolicyAssignmentSovereigntyConfidential": {
+      "value": {
+        "parAllowedVirtualMachineSKUs": [],
+        "parPolicyEffect": "Deny",
+        "parAllowedResourceTypes": [],
+        "parListOfAllowedLocations": []
+      }
+    },
+    "parVmBackupExclusionTagValue": {
+      "value": []
+    },
+    "parDataCollectionRuleVMInsightsResourceId": {
+      "value": "/subscriptions/fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf/resourcegroups/rg-spalz-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-vmi-dcr"
+    },
+    "parPlatformMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parPrivateDnsZonesNamesToAuditInCorp": {
+      "value": []
+    },
+    "parDataCollectionRuleMDFCSQLResourceId": {
+      "value": "/subscriptions/fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf/resourcegroups/rg-spalz-logging/providers/Microsoft.Insights/dataCollectionRules/ama-mdfcsql-default-dcr"
+    },
+    "parExcludedPolicyAssignments": {
+      "value": []
+    },
+    "parLandingZoneChildrenMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parLandingZoneMgConfidentialEnable": {
+      "value": false
+    },
+    "parUserAssignedManagedIdentityResourceId": {
+      "value": "/subscriptions/fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf/resourcegroups/rg-spalz-logging/providers/Microsoft.ManagedIdentity/userAssignedIdentities/alz-umi-identity"
+    },
+    "parPrivateDnsResourceGroupId": {
+      "value": "/subscriptions/1c75efbb-e856-497e-97a0-ee1ebbfb98a8/resourceGroups/rg-spalz-connectivity"
+    },
+    "parTopLevelManagementGroupPrefix": {
+      "value": "spalz"
+    },
+    "parMsDefenderForCloudEmailSecurityContact": {
+      "value": "sameera.man@gmail.com"
+    },
+    "parDataCollectionRuleChangeTrackingResourceId": {
+      "value": "/subscriptions/fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf/resourcegroups/rg-spalz-logging/providers/Microsoft.Insights/dataCollectionRules/alz-ama-ct-dcr"
+    }
+  },
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0"
+}
