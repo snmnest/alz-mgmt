@@ -1,0 +1,36 @@
+{
+  "parameters": {
+    "parLandingZoneMgChildren": {
+      "value": []
+    },
+    "parPlatformMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parPlatformMgChildren": {
+      "value": []
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    },
+    "parTopLevelManagementGroupSuffix": {
+      "value": ""
+    },
+    "parLogAnalyticsWorkspaceResourceId": {
+      "value": "/subscriptions/fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf/resourcegroups/rg-spalz-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+    },
+    "parLandingZoneMgAlzDefaultsEnable": {
+      "value": true
+    },
+    "parDiagnosticSettingsName": {
+      "value": "toLa"
+    },
+    "parTopLevelManagementGroupPrefix": {
+      "value": "spalz"
+    },
+    "parLandingZoneMgConfidentialEnable": {
+      "value": false
+    }
+  },
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0"
+}
