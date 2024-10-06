@@ -1,0 +1,26 @@
+{
+  "parameters": {
+    "parTags": {
+      "value": {
+        "Environment": "live"
+      }
+    },
+    "parResourceGroupName": {
+      "value": "rg-spalz-connectivity"
+    },
+    "parTelemetryOptOut": {
+      "value": false
+    },
+    "parLocation": {
+      "value": "australiaeast"
+    },
+    "parResourceLockConfig": {
+      "value": {
+        "kind": "None",
+        "notes": "This lock was created by the ALZ Bicep resourceGroup Module"
+      }
+    }
+  },
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0"
+}
