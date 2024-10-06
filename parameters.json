@@ -1,0 +1,20 @@
+{
+  "AVAILABILITY_ZONES": [
+    "1",
+    "2",
+    "3"
+  ],
+  "AVAILABILITY_ZONES_SECONDARY": [],
+  "CONNECTIVITY_RESOURCE_GROUP": "rg-spalz-connectivity",
+  "CONNECTIVITY_SUBSCRIPTION_ID": "1c75efbb-e856-497e-97a0-ee1ebbfb98a8",
+  "IDENTITY_SUBSCRIPTION_ID": "3f461546-192d-45e2-9141-19cd6a2394fc",
+  "LOCATION": "australiaeast",
+  "LOGGING_RESOURCE_GROUP": "rg-spalz-logging",
+  "MANAGEMENT_SUBSCRIPTION_ID": "fb652d1d-f3d6-4476-8f84-b4c99fe6d0bf",
+  "NETWORK_TYPE": "hubNetworking",
+  "MANAGEMENT_GROUP_ID": "spalz",
+  "PREFIX": "spalz",
+  "RELEASE_VERSION": "v0.19.4",
+  "ROOT_PARENT_MANAGEMENT_GROUP_ID": "",
+  "SECONDARYLOCATION": ""
+}
