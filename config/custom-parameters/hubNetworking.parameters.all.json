@@ -43,7 +43,7 @@
       }
     },
     "parVpnGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parPrivateDnsZones": {
       "value": [
@@ -121,7 +121,7 @@
       "value": "-PublicIP"
     },
     "parExpressRouteGatewayEnabled": {
-      "value": true
+      "value": false
     },
     "parHubRouteTableName": {
       "value": "alz-hub-routetable-australiaeast"
@@ -236,7 +236,7 @@
       "value": true
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parAzFirewallEnabled": {
       "value": true
