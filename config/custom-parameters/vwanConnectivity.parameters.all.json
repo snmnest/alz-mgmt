@@ -162,7 +162,7 @@
       }
     },
     "parDdosEnabled": {
-      "value": true
+      "value": false
     },
     "parVirtualWanHubs": {
       "value": [
